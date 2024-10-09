@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTMl</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video src="media/video.mp4" controls></video>
+    <video src="media/video.ogv" width="500" controls></video> <!-- ESTE NAO ESTA FUNCIONANDO????-->
+    
+    <h2>Como alguns navegadores não são compativeis com certos tipos de video (como por exemplo o brave não carrega ogv aparentemente) nós utilizamos o source</h2>
+    <video controls poster="img/modern-tanjiro-kimetsu-no-yaiba-thumb.png">
+        <source src="media/video.ogv" type="video/ogv" widht="500px">
+        <source src="media/video.mp4" type="video/mp4">
+    </video>
+    
+    <h1>Inserindo vídeos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=ciK5t0vQp2gI1vl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

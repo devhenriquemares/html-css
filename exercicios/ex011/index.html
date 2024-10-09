@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias HTML</title>
+</head>
+<body>
+    <h1>Mude o tamanho da tela de seu navegador ou mude de dispositivo.</h1>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/img-p.png">
+        <source media="(max-width: 1050px)" srcset="imagens/img-m.png">
+        <img src="imagens/img-g.png " alt="">
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vammos aprender a reproduzir áudios em HTML</p>
+
+    <audio autoplay src="media/shady.mp3"></audio>
+
+    <!-- <script>
+        audio:not([controls]) {
+            display: block;
+        }
+    </script> -->
+    <!-- <audio src="media/meu-som.mp3" controls></audio> -->
+</body>
+</html>
