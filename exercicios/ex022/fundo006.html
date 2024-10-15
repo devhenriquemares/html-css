@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo fixo de tela</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            /* background-color: black;
+            background-image: url('./imagens/wallpaper002.jpg');
+            background-position: center top;
+            background-repeat: repeat;
+            background-size: cover;
+            background-attachment: fixed; imagem fixa */
+            /*
+                contain mostra 100% da imagem independente do tamanho da view port
+                cover mostra parte da imagem sem distorcer
+
+                short hand
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url('./imagens/wallpaper002.jpg') center center repeat fixed;
+            background-size: cover;
+        }
+
+        main{
+            background-color: white;
+            width: 400px;
+            padding: 10px;
+            margin: auto;
+            border: 1px solid darkblue;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de imagem de fundo</h1>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta et id ipsam, sapiente quos ipsa corporis nobis dolore odit molestias vero molestiae sunt earum rem fugit, impedit eveniet? Sunt, aperiam?
+            Et ipsum maxime dicta doloribus. Sequi, nihil cupiditate nesciunt sapiente eaque minima porro doloremque quod pariatur iste, omnis voluptas animi harum minus vitae laborum laudantium molestias ab doloribus sint ipsa.
+            Reiciendis, nam culpa labore unde repudiandae rem consequatur sapiente esse veniam perferendis magnam incidunt eligendi velit aspernatur adipisci quam possimus fuga amet doloribus. Ipsam amet mollitia placeat! Voluptatum, fugit id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate pariatur asperiores veritatis repellendus aliquid quidem delectus, voluptas quaerat deserunt, saepe repudiandae odio exercitationem, voluptatum placeat odit. Aut, veniam ex! Repellendus.
+            Voluptatum eos delectus labore. Amet dolor nulla delectus commodi exercitationem blanditiis nihil soluta. Ad alias blanditiis quasi nostrum eligendi cupiditate quas, impedit ab, labore numquam ex dignissimos amet magnam porro!
+            Praesentium quas dolores consequatur iure, eum, earum mollitia tenetur libero hic minima commodi illo perspiciatis assumenda at odio quaerat, repellat quidem placeat incidunt! Hic, deserunt voluptatum laboriosam libero laborum quae?
+            Temporibus minus assumenda, nemo illum placeat voluptatem repellat laborum reprehenderit sit exercitationem? Delectus obcaecati ducimus distinctio vel sunt temporibus necessitatibus! Magni eius numquam error suscipit voluptas non. Repellendus, illo eveniet!
+            Praesentium culpa explicabo omnis minus harum itaque, earum, nulla sed eos, esse quos nemo provident quidem officiis tempora fugit! Quod possimus voluptates illo dignissimos temporibus fugit reiciendis omnis iusto quasi.
+            Aliquam sint ex est, dolores nisi commodi, minus, pariatur quos atque quibusdam velit ea quae dignissimos eum facere placeat id harum molestias quis odio non? Illo voluptatum quam iure? Enim!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta et id ipsam, sapiente quos ipsa corporis nobis dolore odit molestias vero molestiae sunt earum rem fugit, impedit eveniet? Sunt, aperiam?
+            Et ipsum maxime dicta doloribus. Sequi, nihil cupiditate nesciunt sapiente eaque minima porro doloremque quod pariatur iste, omnis voluptas animi harum minus vitae laborum laudantium molestias ab doloribus sint ipsa.
+            Reiciendis, nam culpa labore unde repudiandae rem consequatur sapiente esse veniam perferendis magnam incidunt eligendi velit aspernatur adipisci quam possimus fuga amet doloribus. Ipsam amet mollitia placeat! Voluptatum, fugit id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate pariatur asperiores veritatis repellendus aliquid quidem delectus, voluptas quaerat deserunt, saepe repudiandae odio exercitationem, voluptatum placeat odit. Aut, veniam ex! Repellendus.
+            Voluptatum eos delectus labore. Amet dolor nulla delectus commodi exercitationem blanditiis nihil soluta. Ad alias blanditiis quasi nostrum eligendi cupiditate quas, impedit ab, labore numquam ex dignissimos amet magnam porro!
+            Praesentium quas dolores consequatur iure, eum, earum mollitia tenetur libero hic minima commodi illo perspiciatis assumenda at odio quaerat, repellat quidem placeat incidunt! Hic, deserunt voluptatum laboriosam libero laborum quae?
+            Temporibus minus assumenda, nemo illum placeat voluptatem repellat laborum reprehenderit sit exercitationem? Delectus obcaecati ducimus distinctio vel sunt temporibus necessitatibus! Magni eius numquam error suscipit voluptas non. Repellendus, illo eveniet!
+            Praesentium culpa explicabo omnis minus harum itaque, earum, nulla sed eos, esse quos nemo provident quidem officiis tempora fugit! Quod possimus voluptates illo dignissimos temporibus fugit reiciendis omnis iusto quasi.
+            Aliquam sint ex est, dolores nisi commodi, minus, pariatur quos atque quibusdam velit ea quae dignissimos eum facere placeat id harum molestias quis odio non? Illo voluptatum quam iure? Enim!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta et id ipsam, sapiente quos ipsa corporis nobis dolore odit molestias vero molestiae sunt earum rem fugit, impedit eveniet? Sunt, aperiam?
+            Et ipsum maxime dicta doloribus. Sequi, nihil cupiditate nesciunt sapiente eaque minima porro doloremque quod pariatur iste, omnis voluptas animi harum minus vitae laborum laudantium molestias ab doloribus sint ipsa.
+            Reiciendis, nam culpa labore unde repudiandae rem consequatur sapiente esse veniam perferendis magnam incidunt eligendi velit aspernatur adipisci quam possimus fuga amet doloribus. Ipsam amet mollitia placeat! Voluptatum, fugit id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate pariatur asperiores veritatis repellendus aliquid quidem delectus, voluptas quaerat deserunt, saepe repudiandae odio exercitationem, voluptatum placeat odit. Aut, veniam ex! Repellendus.
+            Voluptatum eos delectus labore. Amet dolor nulla delectus commodi exercitationem blanditiis nihil soluta. Ad alias blanditiis quasi nostrum eligendi cupiditate quas, impedit ab, labore numquam ex dignissimos amet magnam porro!
+            Praesentium quas dolores consequatur iure, eum, earum mollitia tenetur libero hic minima commodi illo perspiciatis assumenda at odio quaerat, repellat quidem placeat incidunt! Hic, deserunt voluptatum laboriosam libero laborum quae?
+            Temporibus minus assumenda, nemo illum placeat voluptatem repellat laborum reprehenderit sit exercitationem? Delectus obcaecati ducimus distinctio vel sunt temporibus necessitatibus! Magni eius numquam error suscipit voluptas non. Repellendus, illo eveniet!
+            Praesentium culpa explicabo omnis minus harum itaque, earum, nulla sed eos, esse quos nemo provident quidem officiis tempora fugit! Quod possimus voluptates illo dignissimos temporibus fugit reiciendis omnis iusto quasi.
+            Aliquam sint ex est, dolores nisi commodi, minus, pariatur quos atque quibusdam velit ea quae dignissimos eum facere placeat id harum molestias quis odio non? Illo voluptatum quam iure? Enim!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta et id ipsam, sapiente quos ipsa corporis nobis dolore odit molestias vero molestiae sunt earum rem fugit, impedit eveniet? Sunt, aperiam?
+            Et ipsum maxime dicta doloribus. Sequi, nihil cupiditate nesciunt sapiente eaque minima porro doloremque quod pariatur iste, omnis voluptas animi harum minus vitae laborum laudantium molestias ab doloribus sint ipsa.
+            Reiciendis, nam culpa labore unde repudiandae rem consequatur sapiente esse veniam perferendis magnam incidunt eligendi velit aspernatur adipisci quam possimus fuga amet doloribus. Ipsam amet mollitia placeat! Voluptatum, fugit id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate pariatur asperiores veritatis repellendus aliquid quidem delectus, voluptas quaerat deserunt, saepe repudiandae odio exercitationem, voluptatum placeat odit. Aut, veniam ex! Repellendus.
+            Voluptatum eos delectus labore. Amet dolor nulla delectus commodi exercitationem blanditiis nihil soluta. Ad alias blanditiis quasi nostrum eligendi cupiditate quas, impedit ab, labore numquam ex dignissimos amet magnam porro!
+            Praesentium quas dolores consequatur iure, eum, earum mollitia tenetur libero hic minima commodi illo perspiciatis assumenda at odio quaerat, repellat quidem placeat incidunt! Hic, deserunt voluptatum laboriosam libero laborum quae?
+            Temporibus minus assumenda, nemo illum placeat voluptatem repellat laborum reprehenderit sit exercitationem? Delectus obcaecati ducimus distinctio vel sunt temporibus necessitatibus! Magni eius numquam error suscipit voluptas non. Repellendus, illo eveniet!
+            Praesentium culpa explicabo omnis minus harum itaque, earum, nulla sed eos, esse quos nemo provident quidem officiis tempora fugit! Quod possimus voluptates illo dignissimos temporibus fugit reiciendis omnis iusto quasi.
+            Aliquam sint ex est, dolores nisi commodi, minus, pariatur quos atque quibusdam velit ea quae dignissimos eum facere placeat id harum molestias quis odio non? Illo voluptatum quam iure? Enim!
+        </p>
+    </main>
+</body>
+</html>
